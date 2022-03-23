@@ -18,6 +18,10 @@ git tag -d <tag_name>
 git push origin <local_tag_name>
 
 ## Account
-1. 设置账户：
-- git config user.email "<email>" 
-- git config user.name "<name>" 
+1. 查看账户
+- git config user.email
+- git config user.name
+
+2. 设置账户
+- git config user.email "<your_email>" 
+- git config user.name "<your_name>" 
