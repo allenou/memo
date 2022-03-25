@@ -1,7 +1,10 @@
 
 ## Repository
 1. 本地仓库关联远程仓库：
-git remote add origin <url>
+git remote add origin <repository_url>
+
+2. 本地仓库重新关联远程仓库
+git remote set-url origin <repository_url>
 
 ## Branch
 1. 本地强制推送到远程：
