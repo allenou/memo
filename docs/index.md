@@ -4,6 +4,6 @@
 
 - [Git](./git.md)
 - [Nginx](./nginx.md)
-- [Npm](./npm.md)
+- [NPM](./npm.md)
 - [Vim](./vim.md)
 - [Docker](./docker.md)
