@@ -1,4 +1,4 @@
-# Memos
+# Memo
 
 好记性不如烂笔头
 
@@ -7,5 +7,5 @@
 - [NPM](./npm)
 - [Vim](./vim)
 - [Docker](./docker)
-- [Problem](./problem.md)
-- [Articles](./articles.md)
+- [Problem](./problem)
+- [Articles](./articles)
