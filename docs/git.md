@@ -2,14 +2,29 @@
 
 ## Repository
 
-1. 本地仓库关联远程仓库：
+1. 本地仓库关联远程仓库
+
+```bash
 git remote add origin <repository_url>
+```
 
-1. 本地仓库重新关联远程仓库：
+2. 本地仓库重新关联远程仓库
+
+```bash
 git remote set-url origin <repository_url>
+```
 
-1. 查看远程仓库：
+3. 取消本地仓库与远程仓库的关联
+
+```bash
+git remote remove origin
+```
+
+4. 查看远程仓库：
+
+```bash
 git remote -v
+```
 
 ## Branch
 
