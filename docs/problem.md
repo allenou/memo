@@ -29,9 +29,18 @@ setup(props) {
 
 ### 小程序
 
-- input、textarea 无法通过 js 设置值
+1. input、textarea 无法通过 js 设置值
 
 <https://github.com/NervJS/taro/issues/2642>
+
+1. 自定义 Tabbar 第二次点击后无法高亮
+
+原因 Tabbar 页面第一次打开后已被缓存
+```javascript
+onShow(){
+  // 在这设置一遍高亮
+}
+```
 
 ## Flutter
 
@@ -46,3 +55,8 @@ setup(props) {
 :bug: 因 `minSdkVersion` 为 19 导致无法引入 sentry_flutter 后无法正常启动
 
 :bird: minSdkVersion 改为 21,<https://developer.android.com/studio/build/multidex>
+
+
+## 其它
+
+1. [pnpm 使用不同 npm registry 无法安装 package](https://github.com/pnpm/pnpm/issues/3361#issuecomment-821238867)
