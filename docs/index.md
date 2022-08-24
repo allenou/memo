@@ -1,4 +1,4 @@
-# Memo
+# [Memo](https://github.com/allenou/memo)
 
 好记性不如烂笔头
 
