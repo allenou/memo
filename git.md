@@ -51,6 +51,12 @@ git branch -m <new_name>
 git branch -D <branch_name>
 ```
 
+检出新分支并清除原提交记录
+
+```bash
+git checkout --orphan <branch_name>
+```
+
 ## Tag
 
 删除本地 tag
