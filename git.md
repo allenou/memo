@@ -89,6 +89,12 @@ git config user.name "<your_name>"
 
 ## Commit
 
+查看本次修改的文件
+
+```bash
+git status -s
+```
+
 将所有文件加入到暂存区
 
 ```bash
@@ -99,4 +105,10 @@ git add .
 
 ```bash
 git commit -m "<commit_message>"
+```
+
+撤销最后一次提交
+
+```bash
+git reset --soft HEAD~
 ```
