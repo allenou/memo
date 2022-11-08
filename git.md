@@ -112,3 +112,11 @@ git commit -m "<commit_message>"
 ```bash
 git reset --soft HEAD~
 ```
+
+## Merge
+
+合并其它分支的某次提交
+
+```bash
+git cherry-pick <commit_id>
+```
