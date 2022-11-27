@@ -1,32 +1,32 @@
 # TypeScript
 
-对象转类型
+枚举转类型
 
 ```ts
-interface Map {
+enum CycleEnum {
   'DAY':'日'
   'WEEK':'周'
   'MONTH':'月'
 }
-type MapType = keyof typeof Map
+type CycleType = keyof typeof CycleEnum
 ```
 
 数组转类型
 
 ```ts
-const OPTIONS = [
+const CYCLE_OPTIONS = [
   {
     label: '日',
     value: 'DAY'
   },
   {
     label: '周',
-    value: 'DAY'
+    value: 'WEEK'
   },
   {
     label: '月',
-    value: 'DAY'
+    value: 'MONTH'
   }
-]
-type OptionType = (typeof OPTIONS)[number]['label']
+] as const
+type CycleType = (typeof CYCLE_OPTIONS)[number]['value']
 ```
